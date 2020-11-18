@@ -1,0 +1,88 @@
+<head>
+  </head>
+<body>
+  <div data-collapse="medium" data-animation="default" data-duration="400" class="navigation-bar w-nav">
+<div class="Whole">
+  <div class="w-container">
+    <a href="#" class="brand-link w-nav-brand w--current">
+    <h1 class="mintrix">Mintrix</h1>
+  </a><nav role="navigation" class="navigation-menu w-nav-menu">
+    <a href="/mintrix.github.io/index.html" class="navigation-link w-nav-link" id="home">Home</a>
+    <a href="/mintrix.github.io/DocumentsAndIco/MintrixHeroMode.html" class="navigation-link w-nav-link" id="heroMode">Hero Mode</a>
+    <a href="/mintrix.github.io/DocumentsAndIco/MintrixEvents.html" class="navigation-link w-nav-link" id="Events">Events</a>
+    <a href="/mintrix.github.io/DocumentsAndIco/MintrixDownload.html" class="navigation-link w-nav-link" id="Download">Download</a>
+    <a href="/mintrix.github.io/DocumentsAndIco/MintrixNews.html" class="navigation-link w-nav-link" id="News">News</a>
+    <div class="dropdown">
+      <button class="dropbtn naviagtion-link w-nav-link" id="moreDrop" id="help">Help</button>
+      <div class="dropdown-content">
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixContact.html" class="naviagtion-link w-nav-link" id="contact">Contact</a>
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixFAQ.html" class="naviagtion-link w-nav-link" id="faq">FAQ</a>
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixForum.html" class="naviagtion-link w-nav-link" id="forum">Forum</a>
+      </div>
+    </div>
+  </nav>
+    <div class="hamburger-button w-nav-button"><div class="w-icon-nav-menu">
+      <nav role="navigation" class="navigation-menu w-nav-menu">
+        <a href="/mintrix.github.io/index.html" class="navigation-link w-nav-link" id="home">Home</a>
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixHeroMode.html" class="navigation-link w-nav-link" id="heroMode">Hero Mode</a>
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixEvents.html" class="navigation-link w-nav-link" id="Events">Events</a>
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixDownload.html" class="navigation-link w-nav-link" id="Download">Download</a>
+        <a href="/mintrix.github.io/DocumentsAndIco/MintrixNews.html" class="navigation-link w-nav-link" id="News">News</a>
+        <div class="dropdown">
+          <button class="dropbtn naviagtion-link w-nav-link" id="moreDrop" id="help">Help</button>
+          <div class="dropdown-content">
+            <a href="/mintrix.github.io/DocumentsAndIco/MintrixContact.html" class="naviagtion-link w-nav-link" id="contact">Contact</a>
+            <a href="/mintrix.github.io/DocumentsAndIco/MintrixFAQ.html" class="naviagtion-link w-nav-link" id="faq">FAQ</a>
+            <a href="/mintrix.github.io/DocumentsAndIco/MintrixForum.html" class="naviagtion-link w-nav-link" id="forum">Forum</a>
+          </div>
+        </div>
+      </nav>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script>
+    var path = window.location.pathname;
+    var page = path.split("/").pop();
+    page = page.slice(0, -5);
+    console.log(page);
+  if ( page ) {
+    switch (page) {
+      case ("index"):
+      var element = document.getElementById("home");
+      element.classList.add("w--current");
+      element.setAttribute("href", "#");
+      break;
+      case ("MintrixHeroMode"):
+      var element = document.getElementById("heroMode");
+      element.classList.add("w--current");
+      element.setAttribute("href", "#");
+      break;
+      case ("MintrixEvents"):
+      var element = document.getElementById("Events");
+      element.classList.add("w--current");
+      element.setAttribute("href", "#");
+      break;
+      case ("MintrixDownload"):
+      var element = document.getElementById("Download");
+      element.classList.add("w--current");
+      element.setAttribute("href", "#");
+      break;
+      case ("MintrixNews"):
+      var element = document.getElementById("News");
+      element.classList.add("w--current");
+      element.setAttribute("href", "#");
+      break;
+      default:
+      var element = document.getElementById("help");
+      element.classList.add("w--current");
+    }
+    console.log("Hello");
+  } else {
+      var element = document.getElementById("home");
+      element.classList.add("w--current");
+      element.setAttribute("href", "#");
+  	}
+  </script>
