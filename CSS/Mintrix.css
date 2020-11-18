@@ -776,10 +776,10 @@ p  {
 
 .hero-subheading  {
   margin-bottom: 40px;
-  color: #2e9dff;
+  color: #2be23d;
   font-size: 25px;
   line-height: 25px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
   animation: fadein 2.7s;
@@ -1081,6 +1081,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   }
   .hero-subheading  {
     font-size: 18px;
+    font-weight: 500;
   }
   .form-field.text-area  {
     display: block;
