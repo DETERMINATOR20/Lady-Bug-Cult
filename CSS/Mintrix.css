@@ -111,7 +111,7 @@ body {margin:0; min-height:100%; background-color:#fff; font-family:Arial,sans-s
                           .w-col-11 {width:91.66666667%}
                             .w-col-12 {width:100%}
                                 .w-hidden-main {display:none !important}
-                                  @media screen and (max-width:991px) {.w-container {max-width:728px}
+                                  @media screen and (max-width:991px) {.w-container /*{max-width:728px}*/
                                     .w-hidden-main {display:inherit !important}
                                       .w-hidden-medium {display:none !important}
                                         .w-col-medium-1 {width:8.33333333%}
