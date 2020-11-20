@@ -13,7 +13,11 @@
     <a href="/Lady-Bug-Cult.github.io/DocumentsAndIco/MintrixDownload.html" class="navigation-link w-nav-link-right" id="Download">Learn More</a>
     <a href="/Lady-Bug-Cult.github.io/DocumentsAndIco/MintrixNews.html" class="navigation-link w-nav-link-right" id="News">News</a>
   </nav>
-    <div class="hamburger-button w-nav-button"><div class="w-icon-nav-menu" onclick="myFunction()"></div></div>
+    <div class="hamburger-button w-nav-button"><div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div></div>
     <br>
     <br>
     <br>
@@ -74,7 +78,7 @@
   <script>
 var x = document.getElementById("myLinks");
 x.style.display = "none";
-function myFunction() {
+function OpenHamburgerMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -85,4 +89,8 @@ function myFunction() {
 </script>
 <script>
 fitty('h1');
+function myFunction(x) {
+  x.classList.toggle("change");
+  OpenHamburgerMenu();
+}
 </script>
