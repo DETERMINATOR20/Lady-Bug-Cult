@@ -894,6 +894,7 @@ p  {
   border-radius: 50%;
   background-color: #32ad5c;
   box-shadow: 0 0 0 1px #228a46;
+  object-fit: cover;
 }
 
 .info-icon  {
@@ -1062,6 +1063,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   .grid-image  {
     width: 50%;
     padding: 15px;
+    object-fit: cover;
   }
 }
 
@@ -1094,6 +1096,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   .grid-image  {
     width: 20%;
     padding: 20px;
+    object-fit: cover;
   }
   .spc  {
     margin-bottom: 30px;
@@ -1113,6 +1116,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   }
   .grid-image  {
     width: 35%;
+    object-fit: cover;
   }
 }
 .Whole  {
