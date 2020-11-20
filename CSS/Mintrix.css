@@ -423,7 +423,7 @@ p  {
   transition: all 300ms ease-in-out;
   color: #676770;
   font-family: "Playfair Display", sans-serif;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .navigation-link:hover  {
@@ -1282,3 +1282,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   background-color: #4CAF50;
   color: white;
 }
+
+.w-nav-link-right {position:relative; display:inline-block; vertical-align:top; text-decoration:none; padding:20px; text-align:right; margin-left:auto; margin-right:auto; width: 100%;}
+
+.w-nav-link.w--current-right {color:#0082f3}
