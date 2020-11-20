@@ -2,6 +2,9 @@
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
    ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {font-family:sans-serif; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100% background-color: black;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body {margin:0 background-color: black;}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display:block}
 audio,canvas,progress,video {display:inline-block; vertical-align:baseline}
