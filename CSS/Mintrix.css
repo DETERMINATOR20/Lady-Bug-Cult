@@ -441,8 +441,8 @@ p  {
   margin-bottom: 0px;
   font-family: 'Playfair Display', sans-serif;
   color: #e82c32;
-  font-size: 40px;
-  line-height: 25px;
+  font-size: 4.5vw;
+  line-height: center;
   font-weight: 300;
   letter-spacing: 4px;
   text-transform: uppercase;
