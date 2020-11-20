@@ -87,7 +87,7 @@ body {margin:0; min-height:100%; background-color:#fff; font-family:Arial,sans-s
             .w-file-upload-label {display:inline-block; font-size:14px; font-weight:normal; cursor:pointer; margin:0; padding:8px 12px; border:1px solid #cccccc; background-color:#fafafa}
               .w-icon-file-upload-icon,.w-icon-file-upload-uploading {display:inline-block; margin-right:8px; width:20px}
       .w-icon-file-upload-uploading {height:20px}
-        .w-container {margin-left:auto; margin-right:auto; max-width: 940px;}
+    .w-container {margin-left:auto; margin-right:auto; max-width: 1200px;}
         .w-container:before,.w-container:after {content:" "; display:table; grid-column-start:1; grid-row-start:1; grid-column-end:2; grid-row-end:2}
           .w-container:after {clear:both}
             .w-container .w-row {margin-left:-10px; margin-right:-10px}
@@ -376,7 +376,7 @@ p  {
   margin-left: 10px;
   padding: 12px 30px;
   border-radius: 4px;
-  background-color: #69b9ff;
+  background-color: #32ad5c;
   -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
   color: #fff;
@@ -390,7 +390,7 @@ p  {
 }
 
 .button:hover  {
-  background-color: #2e9dff;
+  background-color: #22984a;
 }
 
 .button.w--current  {
@@ -422,7 +422,7 @@ p  {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   color: #676770;
-  font-family: "Geo", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-size: 25px;
 }
 
@@ -436,8 +436,8 @@ p  {
 .mintrix  {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Geo', sans-serif;
-  color: #69b9ff;
+  font-family: 'Playfair Display', sans-serif;
+  color: #e82c32;
   font-size: 40px;
   line-height: 25px;
   font-weight: 300;
@@ -745,6 +745,7 @@ p  {
   }
 }
 .hero-heading  {
+  text-shadow: 3px 3px #000000;
   margin-bottom: 30px;
   color: white;
   font-size: 90px;
@@ -752,7 +753,7 @@ p  {
   font-weight: lighter;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: "Geo", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   animation: fadein 2.2s;
 -moz-animation: fadein 2.2s; /* Firefox */
 -webkit-animation: fadein 2.2s; /* Safari and Chrome */
@@ -767,7 +768,7 @@ p  {
   font-weight: lighter;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-family: "Geo", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   animation: fadein 2.5s;
 -moz-animation: fadein 2.5s; /* Firefox */
 -webkit-animation: fadein 2.5s; /* Safari and Chrome */
@@ -826,7 +827,7 @@ p  {
   text-align: center;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-family: "Geo", sans-serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .section-heading.centered.white  {
@@ -840,7 +841,7 @@ p  {
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-family: "Geo", sans-serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 .section-subheading.center.off-white  {
@@ -887,8 +888,8 @@ p  {
   padding: 20px;
   border: 10px solid #fff;
   border-radius: 50%;
-  background-color: #69b9ff;
-  box-shadow: 0 0 0 1px #2e9dff;
+  background-color: #32ad5c;
+  box-shadow: 0 0 0 1px #228a46;
 }
 
 .info-icon  {
@@ -1048,7 +1049,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   .navigation-menu  {
     background-color: #3b99d9;
     align-self: right;
-    font-family: "Geo", sans-serif;
+    font-family: "Playfair Display", sans-serif;
   }
   .hero-section.centered  {
     padding-top: 144px;
@@ -1122,7 +1123,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   }
 
   form {
-    font-family: "Geo", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 20px;
   }
 
@@ -1144,12 +1145,12 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   }
 
   .Submit {
-    font-family: "Geo", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 18px;
   }
 
    label {
-      font-family: "Geo", sans-serif;
+      font-family: "Playfair Display", sans-serif;
       font-size: 18px;
    }
 
@@ -1159,7 +1160,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
     border: none;
     cursor: pointer;
     background-color: black;
-    font-family: "Geo", sans-serif;
+    font-family: "Playfair Display", sans-serif;
   }
 
   .dropdown {
@@ -1174,7 +1175,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-family: "Geo", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 23px;
     background-color: rgba(60,60,60,0.2)
   }
@@ -1239,4 +1240,45 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
 
 #full-Width {
    max-width: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
