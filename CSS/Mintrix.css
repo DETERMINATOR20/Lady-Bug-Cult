@@ -449,6 +449,11 @@ p  {
   max-width: 1000px;
 }
 
+@media screen and (min-width: 800px) {
+  .mintrix {
+    font-size: 40px;
+  }
+}
 .brand-link  {
   padding-top: 16px;
   padding-bottom: 16px;
