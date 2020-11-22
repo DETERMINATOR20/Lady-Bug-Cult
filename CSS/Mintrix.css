@@ -1302,7 +1302,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"]  {
   color: white;
 }
 
-.w-nav-link-right {position:relative; display:inline-block; vertical-align:top; text-decoration:none; padding:20px; text-align:right; margin-left:auto; margin-right:auto; width: 100%;}
+.w-nav-link-right {position:relative; display:inline-block; vertical-align:center; text-decoration:none; padding:20px; text-align:right; margin-left:auto; margin-right:auto; width: 100%;}
 
 .w-nav-link.w--current-right {color:#0082f3}
 
